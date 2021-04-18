@@ -1,0 +1,6 @@
+write_csv = open("in.csv", "w")
+write_csv.write("Salad 15.00 3")
+write_csv.write("\n" "Soup 45.00 2")
+write_csv.write("\n" "Bread 2.50 10")
+write_csv.write("\n" "Pizza 80.50 2")
+write_csv.close()
